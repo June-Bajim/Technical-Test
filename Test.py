@@ -18,6 +18,7 @@ result = reverse_digits(user_input)
 
 print("Reversed integer is:", result)
 
+
 #2. Write a recursive function to culculate the factorial of a number
 
 def factorial(n):
@@ -29,6 +30,7 @@ def factorial(n):
 user_input = int(input("Enter a number to calculate its factorial: "))
 result = factorial(user_input)
 print(f"The factorial of {user_input} is: {result}")    
+
 
 
 #3. Design a function that takes a string or a sequence of characters as input and returns the characters  that appears most frequently.
@@ -50,8 +52,6 @@ result = most_frequent_char(user_input)
 print(f"The most frequent character in '{user_input}' is: {result}")
 
 
-
-
 #4. Design a function that determines whether a given string is a pangram.
 def is_pangram(string):
     alphabet = set('abcdefghijklmnopqrstuvwxyz')
@@ -66,11 +66,6 @@ if is_pangram(user_input):
     print(f"The string '{user_input}' is a pangram.")
 else:
     print(f"The string '{user_input}' is not a pangram.")
-
-
-
-
-
 
 
 #5. Design a function that takes a list of integers as input. The function should return True if the list containss two consequetive integers anywhere within the list, otherwise return False
@@ -89,9 +84,6 @@ if has_consecutive_threes(numbers):
     print("The list contains two consecutive threes.")
 else:
     print("The list does not contain two consecutive threes.")
-
-
-
 
 
 #6. Design a function that takes input as sentences and returns a new sentence with a words reversed as in the same order Master  Yoda would use.
